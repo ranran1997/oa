@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="msapplication-tap-highlight" content="no">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="http://at.alicdn.com/t/font_530098_no3j4o4ncxflxr.css">
+</head>
+<body>
+  <div class="page scroll">
+    <header>
+      <a href="#" class="back iconfont icon-back"></a>
+      <h1 class="title">参数介绍</h1>
+      <a href="#" class="menu"></a>
+    </header>
+    <section>
+      <p class="text">每周发文总量<span class="num">135</span>件，全年办件量<span class="num">105</span></p>
+    </section>
+  </div>
+  <div class="page">
+    <header>
+      <a href="#" class="back iconfont icon-back"></a>
+      <h1 class="title">协同办公</h1>
+      <a href="#" class="menu iconfont icon-help"></a>
+    </header>
+    <section>
+      <div class="panel">
+        <ul class="grid w t-c card">
+          <li class="grid-item v-m g-12 link" href="趋势图.html">
+            <p class="num">3000 <span class="unit">件</span></p>
+            <h3 class="name">公文交换总量</h3>
+          </li>
+          <li class="grid-item v-m g-12 link" href="公文交换统计.html">
+            <p class="num">112<span class="unit">件</span></p>
+            <h3 class="name">本周发文量</h3>
+          </li>
+        </ul>
+      </div>
+      <div class="panel mt-5">
+        <h2 class="panel-title">
+          发文单位排名情况
+        </h2>
+        <h3 class="chart-title">当月单位历史总量排名</h3>
+        <div class="chart" style="height:20rem;" id="chart1"></div>
+        <h3 class="chart-title">当季度单位历史总量排名</h3>
+        <div class="chart" style="height:20rem;" id="chart2"></div>
+        <h3 class="chart-title">当年单位历史总量排名</h3>
+        <div class="chart" style="height:20rem;" id="chart3"></div>
+      </div>
+    </section>
+    <footer>
+      <a href="公文处理.html">
+        <span class="iconfont icon-nav1"></span>
+        <span class="label">公文处理</span>
+      </a>
+      <a href="公文交换.html" class="active">
+        <span class="iconfont icon-nav2"></span>
+        <span class="label">公文交换</span>
+      </a>
+      <a href="会议情况.html">
+        <span class="iconfont icon-nav3"></span>
+        <span class="label">会议情况</span>
+      </a>
+      <a href="督察督办.html">
+        <span class="iconfont icon-nav"></span>
+        <span class="label">督察督办</span>
+      </a>
+    </footer>
+  </div>
+  <script src="js/zepto.min.js"></script>
+  <script src="js/echarts.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/exchange.js"></script>
+</body>
+</html>
