@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+  />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="msapplication-tap-highlight" content="no">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="http://at.alicdn.com/t/font_530101_qi10oekq1ei885mi.css">
+</head>
+
+<body>
+  <div class="page">
+    <header>
+      <a href="#" class="back"></a>
+      <h1 class="title">标题</h1>
+      <a href="#" class="menu"></a>
+    </header>
+    <section>
+      <div class="panel">
+        <!-- <div class="chart" style="height:12rem;padding-top:1rem;" id="chart1"></div> -->
+        <ul class="grid w t-c card">
+          <li class="grid-item v-m g-12">
+            <p class="num">50
+              <span class="unit">个</span>
+            </p>
+            <h3 class="name">总申报量</h3>
+          </li>
+          <li class="grid-item v-m g-12">
+            <p class="num">10
+              <span class="unit">个</span>
+              <span class="unit">占比</span>
+              20%
+            </p>
+            <h3 class="name">办结量</h3>
+          </li>
+        </ul>
+        <ul class="grid w t-c card">
+          <li class="grid-item v-m g-8">
+            <p class="num">30
+              <span class="unit">家</span>
+            </p>
+            <h3 class="name">申报企业数</h3>
+          </li>
+          <li class="grid-item v-m g-8">
+            <p class="num">1000
+              <span class="unit">亿</span>
+            </p>
+            <h3 class="name">总投资额</h3>
+          </li>
+          <li class="grid-item v-m g-8">
+            <p class="num">100
+              <span class="unit">万元</span>
+            </p>
+            <h3 class="name">协审费用</h3>
+          </li>
+        </ul>
+      </div>
+      <div class="panel mt-5">
+        <h2 class="panel-title">各年度项目投资额趋势统计</h2>
+        <div class="chart" style="height:20rem;" id="chart2"></div>
+      </div>
+      <div class="panel">
+        <h2 class="panel-title">投资增长比</h2>
+        <table class="wrapper-table">
+          <colgroup>
+            <col width="30%" />
+            <col width="35%" />
+            <col width="35%" />
+          </colgroup>
+          <tr>
+            <th>年份</th>
+            <th>投资额</th>
+            <th>投资增长比</th>
+          </tr>
+          <tr>
+            <td>2016</td>
+            <td>5000万元</td>
+            <td>
+              <i class="rate c-red">+10%</i>
+            </td>
+          </tr>
+          <tr>
+            <td>2017</td>
+            <td>4200万元</td>
+            <td>
+              <i class="rate c-green">-10%</i>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <footer>
+      <a href="项目展示.html" class="active">
+        <span class="iconfont icon-nav1"></span>
+        <span class="label">项目展示</span>
+      </a>
+      <a href="系统参量.html">
+        <span class="iconfont icon-nav2"></span>
+        <span class="label">系统参量</span>
+      </a>
+      <a href="单位竞比.html">
+        <span class="iconfont icon-nav3"></span>
+        <span class="label">单位竞比</span>
+      </a>
+      <a href="财政类审计.html">
+        <span class="iconfont icon-nav"></span>
+        <span class="label">财政类审计</span>
+      </a>
+    </footer>
+  </div>
+  <script src="js/zepto.min.js"></script>
+  <script src="js/echarts.min.js"></script>
+  <script src="js/show.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

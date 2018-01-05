@@ -71,8 +71,8 @@ input[type=number]::-ms-clear{display: none;}
 .drawer-title{font-weight:normal;background:#F2F3F5;padding:0.7rem 1rem;font-size:1.4rem;color:#333;margin-bottom:0.5rem;}
 .drawer-item a{display:block;font-size:1.4rem;text-decoration:none;color:#666;padding:0.5rem 1rem;}
 .show-drawer .drawer{right:0;}
-.mask{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0);z-index:45;transform:scale(0);-webkit-transform:scale(0);transition:0.3s;}
-.show-mask .mask{background:rgba(0,0,0,0.2);transform:scale(1);-webkit-transform:scale(1);}
+.mask{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0);z-index:45;transform:scale(1);-webkit-transform:scale(1);transition:0.3s;display:none;}
+.show-mask .mask{background:rgba(0,0,0,0.2);transform:scale(1);-webkit-transform:scale(1);display:block;}
 .page.scroll{position:fixed;top:0;right:-100%;z-index:50;transition:0.3s;}
 .show-page .page.scroll{right:0;}
 .page.scroll section{background:#fff;padding:1rem;box-sizing:border-box;}

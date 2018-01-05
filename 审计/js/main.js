@@ -2,17 +2,17 @@
 (function () {
   var p = 0;
   var t = 0;
-  $('section').scroll(function (e) {
-    p = $(this).scrollTop();
-    if (t <= p) {
-      $('body').addClass('hide-nav').removeClass('show-nav')
-    } else {
-      $('body').removeClass('hide-nav').addClass('show-nav')
-    }
-    setTimeout(function () {
-      t = p;
-    }, 0);
-  })
+  // $('section').scroll(function (e) {
+  //   p = $(this).scrollTop();
+  //   if (t <= p) {
+  //     $('body').addClass('hide-nav').removeClass('show-nav')
+  //   } else {
+  //     $('body').removeClass('hide-nav').addClass('show-nav')
+  //   }
+  //   setTimeout(function () {
+  //     t = p;
+  //   }, 0);
+  // })
 })();
 ;(function(){
   if ($('.swiper-container').length) {
