@@ -89,6 +89,12 @@ input[type=number]::-ms-clear{display: none;}
 .tab-conner .active{color:#2296E7;border-color:#2296E7;position:relative;z-index:10;background:#F7FCFF;}
 .tab-conner span:last-child{border-radius:0 5px 5px 0;}
 .tab-conner span:first-child{border-radius:5px 0 0 5px;}
+.icon-list{padding:0.5rem;}
+.icon-list .grid-item{padding:0.5rem;}
+.panel-card{display:inline-block;width:100%;text-align:center;box-shadow:0 0 0.8rem #eee;background:#fff !important;padding:1rem;box-sizing:border-box;border-radius:0.5rem;}
+.panel-card h2{font-size:1.2rem;font-weight:normal;}
+.panel-card img{width:5rem;}
+.blue
 @font-face {
     font-family: "univeconlig";
     src: url("../fonts/univeconlig_01-webfont.eot"); /* IE9 */
