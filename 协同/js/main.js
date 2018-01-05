@@ -52,6 +52,18 @@
     window.location.href= $(this).attr('href');
   })
 })()
+;(function(){
+  $('.tab-around span,.tab-conner span').click(function(){
+    $(this).addClass('active').siblings().removeClass('active')
+  })
+})()
+;(function(){
+  $('.panel-title').click(function(){
+    if ($(this).children('.icon-more').length){
+      $(this).toggleClass("hide")
+    }
+  })
+})()
 // (function () {
 //   if (document.getElementById('swiper')) {
 //     var index = 0;
