@@ -86,12 +86,12 @@ var option2 = {
         y2: 30,
     },
     legend: {
-        data: ['投资额', '外资占比']
+        data: ['投资额', '投资额增长比']
     },
     xAxis: [
         {
             type: "category",
-            data: ["2015", "2016", "2017"],
+            data: ["2011", "2012", "2013","2014", "2015", "2016", "2017"],
             axisLabel: {
                 interval:0,
                 textStyle: {
@@ -182,7 +182,7 @@ var option2 = {
             type: "bar",
             barWidth: 10,
             yAxisIndex:0,
-            data:[12000,15000,20000],
+            data:[20208.73,21662.97,24785.34,25370.78,26223.69,25164.21,10138.89],
             itemStyle: {
                 normal: {
                     label: {
@@ -194,11 +194,11 @@ var option2 = {
             }
         },
         {
-            name: "外资占比",
+            name: "投资额增长比",
             type: "line",
             barWidth: 10,
             yAxisIndex: 1,
-            data:[25,48,65],
+            data:[-9.70,5.89,12.4,10.8,6.4,4.9,-5.9],
             itemStyle: {
                 normal: {
                     label: {
