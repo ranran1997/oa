@@ -98,6 +98,9 @@ input[type=number]::-ms-clear{display: none;}
 .green p{color:#64BD68;}
 .purple p{color:#8E6ACA;}
 .orange p{color:#FF9840;}
+.page footer .iconfont:first-child{display:none;}
+.page footer .active  .iconfont:nth-child(2){display:none;}
+.page footer .active .iconfont:first-child{display:inline-block;}
 @font-face {
     font-family: "univeconlig";
     src: url("../fonts/univeconlig_01-webfont.eot"); /* IE9 */
