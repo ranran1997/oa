@@ -58,6 +58,7 @@
 ;(function(){
   $('.tab-around span,.tab-conner span').click(function(){
     $(this).addClass('active').siblings().removeClass('active')
+    $(this).parents('.tab').children('.tab-item').eq($(this).index()).show().siblings('.tab-item').hide();
   })
 })()
 ;(function(){
